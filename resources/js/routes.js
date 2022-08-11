@@ -64,6 +64,10 @@ export default {
             component: homePage
         },
         {
+            path:'/',
+            component: homePage
+        },
+        {
             path:'/login',
             component: Login,
             name: 'Login'
