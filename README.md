@@ -10,7 +10,6 @@ A simple Todo-List app with Laravel/Vue.js
 #### Get all items
 
 ```http
-  GET /api/casinos
 ```
 
 | Parameter | Type     | Description                |
@@ -20,7 +19,6 @@ A simple Todo-List app with Laravel/Vue.js
 #### Get item
 
 ```http
-  GET /api/casino/${id}
 ```
 
 | Parameter | Type     | Description                       |
@@ -82,7 +80,6 @@ SESSION_DRIVER=cookie
 SANCTUM_STATEFUL_DOMAINS=localhost:8000
 SESSION_DOMAIN=localhost
 ## Documentation
-
 
 
 ## Demo
